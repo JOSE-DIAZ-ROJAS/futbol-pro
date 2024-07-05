@@ -23,7 +23,8 @@ return (
     { club: "Sport matozoides", representante: "juan diaz", estado: "--" },
     { club: "moshoqueque FC", representante: "Elvis Lucero", estado: "Inscrito" },
     { club: "Fam. Rojas", representante: "Kike Becerra", estado: "--" },
-    { club: "Balon de oro FC", representante: "jose diaz rojas", estado: "Inscrito" }
+    { club: "Balon de oro FC", representante: "jose diaz rojas", estado: "Inscrito" },
+    { club: "Balon de oro F", representante: "jose dia rojas", estado: "Inscrito" }
   ].map((participante, i) => (
     <tr key={i}>
       <td>{participante.club}</td>
