@@ -12,45 +12,25 @@ return (
 <caption>Participantes inscritos</caption>
 <thead>
     <tr>
-    
       <th>Club</th>
-        <th>Representante</th>
-        <th>Estado</th>
-       
+      <th>Representante</th>
+      <th>Estado</th>
     </tr>
 </thead>
 <tbody>
-    <tr>
-
-<td>Sport matozoides</td>
-<td>juan diaz</td>
-<td>--</td>
-
+  {[
+    { club: "Sport matozoides", representante: "juan diaz", estado: "--" },
+    { club: "moshoqueque FC", representante: "Elvis Lucero", estado: "Inscrito" },
+    { club: "Fam. Rojas", representante: "Kike Becerra", estado: "--" },
+    { club: "Balon de oro FC", representante: "jose diaz rojas", estado: "Inscrito" }
+  ].map((participante, i) => (
+    <tr key={i}>
+      <td>{participante.club}</td>
+      <td>{participante.representante}</td>
+      <td>{participante.estado}</td>
     </tr>
-    <tr>
-
-<td> moshoqueque FC</td>
-<td>Elvis Lucero</td>
-<td>Inscrito</td>
-
-    </tr>
-    <tr>
-
-<td>Fam. Rojas</td>
-<td>Kike Becerra</td>
-<td>--</td>
-
-    </tr>
-    <tr>
-
-<td>Balon de oro FC</td>
-<td>jose diaz rojas</td>
-<td>Inscrito</td>
-
-    </tr>
+  ))}
 </tbody>
-
-
 </table>
  </main> 
 </>
