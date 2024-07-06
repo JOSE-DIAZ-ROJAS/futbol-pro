@@ -5,12 +5,14 @@ import { HeaderComponent } from './Header/Header'
 import { MainComponent } from './Main/Main'
 import { FooterComponent } from './Footer/Footer'
 
+
 function App() {
   
   return (
     <>
     <HeaderComponent/> 
     <MainComponent/>
+    
     <FooterComponent/>
     </>
   )

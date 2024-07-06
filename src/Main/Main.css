@@ -6,33 +6,27 @@
    align-items: center;
 }
 .text{
-    color: red;
+    color:white;
+    width: auto;
+    position: absolute;
+    font-weight: lighter;
+    font-size: 50px;
+    top: 330px;
+    left: 350px;
+}
+.text1{
+    color:white;
     width: auto;
     position: absolute;
     font-weight: bold;
     font-size: 100px;
-    top: 400px;
-    left: 50px;
+    top: 200px;
+    left: 180px;
 }
+
 
 .imgmain{
     width: 100%;
     height: 100%;
-    margin-bottom: 20px;
-}
-.tposiciones{
-    width: 450px;
-    border: solid 1px  rgba(19, 4, 1, 0.2);
-    margin-bottom:  20px;
-    border-radius: 10px;
-    /*border: 1px solid red;*/
-}
-th{
-   
- width: auto;
-
-}
-td{
-    width: 150px;
-   
+    
 }

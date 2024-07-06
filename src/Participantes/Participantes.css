@@ -1,0 +1,24 @@
+
+.participantes{
+background-color: black;
+color: white;
+width: 100%;
+}
+
+.tposiciones{
+    width: 450px;
+    border: solid 1px  rgba(189, 45, 16, 0.2);
+    margin-bottom:  20px;
+    border-radius: 10px;
+  
+}
+th{
+   font-size: 20px;
+ width: auto;
+ color: crimson;
+
+}
+td{
+    width: 150px;
+   
+}
