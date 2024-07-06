@@ -32,7 +32,7 @@ export function Participantes(){
   ))}
 </tbody>
 </table>
-<a target="blank" href="https://wa.link/fkpcyj"><img className="whatsapp" src={whatsapp} alt="ws" /></a>
+<a target="blank" href="https://wa.link/2rhbic"><img className="whatsapp" src={whatsapp} alt="ws" /></a>
 
 </div>
 </> 
