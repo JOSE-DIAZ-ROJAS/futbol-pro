@@ -6,16 +6,16 @@ return (
 <>
 <ol className='nav'>
 <li className='nav__item'>
-   <a className='nav__link nav__link-active' href="#" target="_blank" rel="noopener noreferrer">Inicio</a>
+   <a className='nav__link nav__link-active' href="#" target="_self" rel="noopener noreferrer">Inicio</a>
 </li>
 <li className='nav__item'>
-<a className='nav__link' href="#" target="_blank" rel="noopener noreferrer">Nosotros</a>
+<a className='nav__link' href="#" target="_self" rel="noopener noreferrer">Nosotros</a>
 </li>
 <li className='nav__item'>
-<a className='nav__link' href="#" target="_blank" rel="noopener noreferrer">Servicios</a>
+<a className='nav__link' href="#" target="_self" rel="noopener noreferrer">Servicios</a>
 </li>
 <li className='nav__item'>
-<a className='nav__link ' href="#" target="_blank" rel="noopener noreferrer">Eventos</a>
+<a className='nav__link ' href="#" target="_self" rel="noopener noreferrer">Eventos</a>
 </li>
 </ol>
 </>
