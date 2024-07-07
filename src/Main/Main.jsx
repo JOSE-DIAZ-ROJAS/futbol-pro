@@ -7,9 +7,11 @@ export function MainComponent(){
 return (
 <>
 <main className='cont'>
-<img  className="imgmain" src={fondo} alt="imgmain" />
+{/* <img  className="imgmain" src={fondo} alt="imgmain" /> */}
+<div className='sec1'>
 <p className='text1'>Eventos Deportivos</p>
 <p className='text'>Juega, Vive y Anota!</p>
+</div>
 <Informacion/>
  </main> 
 </>

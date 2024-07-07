@@ -7,7 +7,7 @@ return (
 <>
 <div className='logo'> 
 <img  className="img-balon" src={logo} alt="balon" />
-<p className='p-logo'>Futbol<span>Pro</span> </p>
+<p className='p-logo'><div className='f'>F</div>utbol<span>Pro</span> </p>
 </div>
 </>
 )
