@@ -1,7 +1,19 @@
 
 header{
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    align-items: center;
+    height:10vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.navv{
     display: flex;
     justify-content: space-between;
-    background-color: #F5F7F8;
-    background-color: aqua;
+    width: 1000px;
+    align-items: center;
+
 }

@@ -1,8 +1,8 @@
 
 .informacion{
-    background-color: #379777;
-/*background-color:#18171c;*/
-color: white;
+   /* background-color: #379777;*/
+background-color:aliceblue;
+color: black;
 width: 100%;
 display: flex;
 justify-content: space-around;
