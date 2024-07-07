@@ -1,0 +1,35 @@
+
+.informacion{
+background-color:#18171c;
+color: white;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.equipos{
+    width: 400px;
+   
+  
+}
+th{
+   font-size: 20px;
+ width: auto;
+ color: crimson;
+
+}
+td{
+    width: 150px;
+   
+    
+}
+
+
+.btn{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+
+}

@@ -1,6 +1,6 @@
 import './Header.css';
 import React from 'react';
-import { InfoComponent } from '../Info/Info';
+import { Navigation } from '../Navigation/Navigation';
 import { LogoComponent } from '../Logo/Logo';
 
 export function HeaderComponent(){
@@ -8,7 +8,7 @@ return (
 <>
 <header>
 <LogoComponent/>
-<InfoComponent/>
+<Navigation/>
 </header>
 </>
 )
